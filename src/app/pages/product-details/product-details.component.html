@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>Product Details</h2>
+    <ng-container *ngIf="productId; else noProduct">
+      <p>Details for product with ID: {{ productId }}</p>
+    </ng-container>
+    <ng-template #noProduct>
+      <p>No product selected.</p>
+    </ng-template>
+  </div>
+  
