@@ -1,0 +1,18 @@
+.navbar-brand{
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.container{
+    & div{
+        & ul{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+    }
+}
+
+.nav-item{
+    font-size: large;
+}
